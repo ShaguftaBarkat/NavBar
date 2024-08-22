@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background-color: cadetblue;
+        margin: 15px 15px;
+    }
+    h2{
+        color: rgb(34, 9, 0);
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+.horizontal-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #110800;
+}
+
+.horizontal-nav li {
+    float: left;
+}
+
+.horizontal-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.horizontal-nav li a:hover {
+    background-color: #746f6f;
+}
+.vertical-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #110800;
+}
+
+.vertical-nav li {
+    display: block;
+}
+
+.vertical-nav li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.vertical-nav li a:hover {
+    background-color: #746f6f;
+}
+.centered-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #110800;
+    display: flex;
+    justify-content: center;
+}
+
+.centered-nav li {
+    margin: 0 15px;
+}
+
+.centered-nav li a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+.centered-nav li a:hover {
+    background-color: #746f6f;
+}
+</style>
+<body>
+    
+    <h2>HORIZONTAL NAVIGATION BAR:</h2>
+    <nav class="horizontal-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <br>
+    <h2>VERTICAL NAVIGATION BAR:</h2>
+    <nav class="vertical-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    <br>
+    <h2>CENTERED NAVIGATION BAR:</h2>
+    <nav class="centered-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
